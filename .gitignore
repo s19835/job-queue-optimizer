@@ -1,0 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+target/
+log/
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# OS-specific
+*.swp
+*.swo
+
+# Git
+*.orig
