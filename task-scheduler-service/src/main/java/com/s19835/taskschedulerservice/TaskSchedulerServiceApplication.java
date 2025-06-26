@@ -1,13 +1,13 @@
-package com.s19835.taskscheduler;
+package com.s19835.taskschedulerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskSchedulerApplication {
+public class TaskSchedulerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskSchedulerApplication.class, args);
+		SpringApplication.run(TaskSchedulerServiceApplication.class, args);
 	}
 
 }
