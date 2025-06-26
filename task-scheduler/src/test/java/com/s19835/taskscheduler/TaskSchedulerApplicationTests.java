@@ -1,10 +1,10 @@
-package com.s19835.taskschedulerservice;
+package com.s19835.taskscheduler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskSchedulerServiceApplicationTests {
+class TaskSchedulerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.s19835</groupId>
-	<artifactId>task-scheduler-service</artifactId>
+	<artifactId>task-scheduler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>task-scheduler-service</name>
-	<description>task-scheduler-service</description>
+	<name>task-scheduler</name>
+	<description>task-scheduler</description>
 	<url/>
 	<licenses>
 		<license/>
