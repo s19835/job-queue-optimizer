@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: task-scheduler-service
+  datasource:
+    url: jdbc:h2:mem:jobsdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
